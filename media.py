@@ -19,4 +19,5 @@ enders_game = movie.Movie("Ender`s game",
 
 movies = [toy_story, avatar, enders_game]
 # fresh_tomatoes.open_movies_page(movies)
-print(movie.Movie.valid_ratings)
+# print(movie.Movie.valid_ratings)
+print(movie.Movie.__doc__)

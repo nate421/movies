@@ -1,6 +1,8 @@
 import webbrowser
 
 class Movie():
+    """Movie info shown with pictures and trailer"""
+
     valid_ratings = ["G", "PG", "PG-13", "R"]
 
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
